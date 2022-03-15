@@ -1,0 +1,10 @@
+.welcome_msg_container {
+  font-size: 4vmax;
+  user-select: none;
+  max-width: 450px;
+  text-transform: capitalize;
+}
+
+.welcome_msg_container > * {
+  margin-bottom: 20px;
+}

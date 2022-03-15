@@ -1,0 +1,69 @@
+.chat_window {
+  background-color: rgb(60, 60, 60);
+  height: calc(100vh - 30px - 35px);
+  min-height: 200px;
+  min-width: 250px;
+  max-width: 350px;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 10px;
+  max-width: 350px;
+  min-width: 350px;
+}
+
+.composer_container {
+  background-color: rgb(31, 30, 30);
+  text-align: center;
+  margin-top: auto;
+  display: flex;
+  width: 100%;
+  line-height: 30px;
+}
+
+.composer_container > * {
+  margin: 5px;
+  height: 35px;
+  line-height: 30px;
+}
+
+.composer_input {
+  border: 0;
+  width: 100%;
+  line-height: 30px;
+  border-radius: 5px;
+  background-color: rgb(41, 41, 41);
+  color: #fff;
+  padding: 0 10px 0 10px;
+}
+
+.composer_input:focus {
+  outline: none;
+}
+
+.composer_send_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  width: 50px;
+  padding: 0;
+  border-radius: 10px;
+  background-color: rgb(41, 41, 41);
+  color: #fff;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.composer_send_button:hover {
+  background-color: rgb(106, 0, 116);
+}
+
+.messages_container {
+  background-color: rgb(37, 37, 37);
+  height: 100%;
+  padding: 20px;
+  width: 100%;
+}
